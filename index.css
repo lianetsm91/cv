@@ -1,5 +1,7 @@
 body {
     font-family: 'Roboto', sans-serif;
+    -webkit-print-color-adjust: exact !important;
+    print-color-adjust: exact !important;
 }
 
 p, h1, h2, h3, h4, h5, h6 {
@@ -76,23 +78,23 @@ p, h1, h2, h3, h4, h5, h6 {
 }
 
 .experience-block {
-    display: flex;
     font-size: 14px;
-    margin-bottom: 16px;
+    margin-bottom: 20px;
 }
 
 .experience-block-left {
-    width: 15%;
     color: #548293;
 }
 
 .experience-block-right {
-    width: 85%;
-    margin-left: 16px;
+    margin-top: 12px;
+}
+
+.experience-block-right i {
+    color: #8f9091;
 }
 
 .experience-block-right-head {
-    font-style: italic;
     color: #2c2c2c;
     display: flex;
     justify-content: space-between;
